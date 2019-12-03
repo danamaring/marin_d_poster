@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS STYLING links -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Fonts links -->
+    <link rel="stylesheet" href="https://use.typekit.net/cpy7ukn.css">
+
+    <title>What's people watching on Netflix?</title>
+</head>
+<body>
+    <section>
+        <!-- Title -->
+        <h1 class="hidden">Infographic's title</h1>
+        <div id="title_container">
+            <h1 id="title_line1">WHAT IS</h1>
+            <h1 id="title_line2">PEOPLE</h1>
+            <h1 id="title_line3">WATCHING ON</h1>
+            <img id="netflix_logo" src="images/netflix_2014.svg" alt="Netflix logo">
+        </div>
+        
+    </section>
+
+    <section id="interactive-buttons">
+        <!-- Interactive Buttons -->
+        <h1 class="hidden">Interactive Buttons</h1>
+        <div id="buttons-series">
+            <span class="see-more" data-target="6">Stranger Things</span>
+            <span class="see-more" data-target="7">You</span>
+            <span class="see-more" data-target="8">Money Heist</span>
+            <span class="see-more" data-target="9">The Umbrella Academy</span>
+            <span class="see-more" data-target="10">Sex Education</span>
+        </div>
+    
+        <div id="buttons-movies">
+            <span class="see-more" data-target="1">The Perfect Date</span>
+            <span class="see-more" data-target="2">Murder Mystery</span>
+            <span class="see-more" data-target="3">Triple Frontier</span>
+            <span class="see-more" data-target="4">Bird Box</span>
+            <span class="see-more" data-target="5">Tall Girl</span>
+         </div>
+    </section>
+
+    <section>
+        <!-- Graphic -->
+        <h1 class="hidden">Infographic</h1>
+
+        <div id="graphic">
+            <object data="images/final_infographic_broken-parts.svg" type="image/svg+xml" class="svg-graphic" id="infographic"></object>
+        </div>
+    </section>
+
+    <section>
+        <!-- References -->
+        <h1 class="hidden">References</h1>
+        <div id="ref_container">
+            <h3>References: <br> https://www.rottentomatoes.com/tv/ <br> https://www.nytimes.com/2019/10/17/business/media/netflix-top-ten-movies-tv-shows.html</h3>
+        </div>
+    </section>
+
+    <article class="popover">
+        <h5 class="movie-name"></h5>
+        <h5 class="tomatometer">TOMATOMETER:</h5>
+        <div class="audience-score">AUDIENCE SCORE: </div>
+        <p class="critics-consensus">CRITICS CONSENSUS:</p>
+          
+      
+    </article>
+    <script src="js/main.js"></script>
+</body>
+</html>
